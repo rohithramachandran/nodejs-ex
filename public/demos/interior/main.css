@@ -1,0 +1,115 @@
+html, body {
+  height: 100%;
+}
+
+.main-container {
+  /* padding: 10px 15px; */
+  padding: 0px;
+}
+
+
+.image1 {
+  
+  background-image: url(images/bg1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.image2 {
+  
+  background-image: url(images/bg2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.image3 {
+  
+  background-image: url(images/bg3.jpg);
+  background-size: contain;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.image4 {
+  
+  background-image: url(images/bg4.jpg);
+  background-size: contain;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel, .carousel-inner {
+  height: 100%;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  position: absolute;
+  bottom:0px;
+}
+
+.carousel .item {
+  min-height: 350px;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+
+.carousel .icon-container {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 1em;
+  text-align: center;
+  border-radius: 50%;
+}
+/* 
+.carousel-caption button {
+  border-color: #00bfff;
+  margin-top: 1em;
+}
+.carousel-caption h3:first-child {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.carousel-caption button {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+} */
+/* 
+/* Animation delays 
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  padding-top: 125px;
+  text-align: center;
+}
+.p a {
+  text-decoration: underline;
+}
+
+/* .animated{
+	animation-duration: .8s;
+  animation-delay: .1s;
+} */ 
+

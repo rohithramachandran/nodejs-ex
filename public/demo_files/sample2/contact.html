@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ORIEL</title>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=0,width=device-width,height=device-height,initial-scale=1,maximum-scale=1" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- FAVICON -->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- CSS FILES -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/colors.css" rel="stylesheet" type="text/css">
+    <link href="css/colorbox.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <!-- PAGE LOADING -->
+    <div id="page-loading"></div>
+    <!-- HEADER -->
+    <header id="header" class="nav-container">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="" />
+            </a>
+        </div>
+        <!-- MOBILE MENU ICON -->
+        <a class="toggleMenu" href="#">Menu</a>
+        <!-- MAIN MENU -->
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Pages</a>
+                    <ul>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Galleries</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="features.html">Features</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Item 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Item 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Item 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Item 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                    <ul>
+                        <li>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="single-project.html">Single Project</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                    <ul>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="single-post.html">Single Post</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="clear"></div>
+    <!-- BG FILTERS -->
+    <div id="left-bg"></div>
+    <div id="right-bg"></div>
+    <!-- MAIN CONTAINER -->
+    <main id="site-container">
+        <!-- SLIDER CONTAINER -->
+        <div class="page-title-container">
+            <div id="page-title-bg"></div>
+            <div id="page-title-text">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <!-- PAGE CONTAINER -->
+        <div class="page-block">
+            <!-- MAIN PAGE CONTENT -->
+            <div class="page-block-right">
+                <!-- GRID -->
+                <div class="page-block-inner">
+                    <h3>Find Us</h3>
+                    <p>Si aute quis eu proident o cupidatat ne anim nescius, et est praesentibus, o quorum vidisse expetendis, nostrud eram quibusdam ad nam nostrud ubi tempor, cillum ex aut aliqua mandaremus in ex legam magna noster ullamco.</p>
+                    <!-- GOOGLE MAP -->
+                        <div class="flex-video google-map">
+                            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=tr&amp;geocode=&amp;q=new+york&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=New+York&amp;t=m&amp;z=10&amp;ll=40.714353,-74.005973&amp;output=embed&amp;iwloc=near"></iframe>
+                        </div>
+                    <p class="info-bar"><strong>Address:</strong> Lorem street 134/23 New York 3483 USA</p>
+                    <br/>
+                    <p class="info-bar"><strong>Phone:</strong> 800-654-3210</p>
+                    <br/>
+                    <p class="info-bar"><strong>Email:</strong> youremail@yoursite.com</p>
+                    <hr/>
+                    <h3>Get In Touch</h3>
+                    <p>E fugiat mentitum illustriora, te noster tractavissent. Eu aute occaecat domesticarum id si quem non enim. Ab velit nisi si commodo ne dolor domesticarum quamquam malis officia, et legam laboris ne qui cupidatat qui singulis, fabulas.</p>
+                    <!-- CONTACT FORM -->
+                    <form class="form-box" action="processform.php" method="post">
+                        <label>Full name :</label>
+                        <input type="text" name="senderName" id="senderName" required="required" maxlength="50" />
+                        <label>Phone Number :</label>
+                        <input type="text" name="phoneNumber" id="phoneNumber" required="required" maxlength="50" />
+                        <label>Email address :</label>
+                        <input type="email" name="senderEmail" id="senderEmail" required="required" maxlength="50" />
+                        <label>Message :</label>
+                        <textarea name="message" id="message" required="required"></textarea>
+                        <input type="submit" id="sendMessage" name="sendMessage" class="button" value="Send Message" />
+                    </form>
+                    </div>
+            </div>
+            <!-- SIDEBAR -->
+            <aside class="page-block-left">
+                <div class="page-block-inner">
+                    <div class="sidebar-box">
+                        <form id="searchform" class="searchbox">
+                            <input type="text" id="search" class="searchtext" placeholder="Keyword..." />
+                            <input type="submit" class="button search-button" name="submit" value="" />
+                        </form>
+                    </div>
+                    <div class="sidebar-box">
+                        <div class="call-now"><span>800-654-3210</span>
+                        </div>
+                    </div>
+                    <div class="sidebar-box">
+                        <h5>Sub Menu</h5>
+                        <!-- SUBMENU -->
+                        <nav class="submenu">
+                            <ul>
+                                <li><a href="#">Kitchen</a>
+                                </li>
+                                <li><a href="#">Bed Room</a>
+                                </li>
+                                <li><a href="#">Bath Room</a>
+                                </li>
+                                <li><a href="#">Dropdown</a>
+                                    <ul>
+                                        <li><a href="#">Item 1</a>
+                                        </li>
+                                        <li><a href="#">Item 2</a>
+                                        </li>
+                                        <li><a href="#">Item 3</a>
+                                        </li>
+                                        <li><a href="#">Item 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Living Room</a>
+                                </li>
+                                <li><a href="#">Another Dropdown</a>
+                                    <ul>
+                                        <li><a href="#">Item 1</a>
+                                        </li>
+                                        <li><a href="#">Item 2</a>
+                                        </li>
+                                        <li><a href="#">Item 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="sidebar-box">
+                        <h5>Popular Posts</h5>
+                        <ul class="sidebar-posts">
+                            <li>
+                                <div class="sidebar-posts-img">
+                                    <a href="single-post.html">
+                                        <img src="images/photos/p-thumb1.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <a href="single-post.html" class="sidebar-post-title">Malis imita offend irure nostrud non deserunt</a>
+                                <p class="sidebar-post-date">21 Oct 2015</p>
+                            </li>
+                            <li>
+                                <div class="sidebar-posts-img">
+                                    <a href="single-post.html">
+                                        <img src="images/photos/p-thumb2.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <a href="single-post.html" class="sidebar-post-title">Nostrud aute mandaremus, fabulas aute occaecat</a>
+                                <p class="sidebar-post-date">19 Oct 2015</p>
+                            </li>
+                            <li>
+                                <div class="sidebar-posts-img">
+                                    <a href="single-post.html">
+                                        <img src="images/photos/p-thumb3.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <a href="single-post.html" class="sidebar-post-title">Nulla aut occaecat. Possumus lorem nostrud doctrina</a>
+                                <p class="sidebar-post-date">17 Oct 2015</p>
+                            </li>
+                            <li>
+                                <div class="sidebar-posts-img">
+                                    <a href="single-post.html">
+                                        <img src="images/photos/p-thumb4.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <a href="single-post.html" class="sidebar-post-title">Litteris ipsum mandaremus, et labore esse quae</a>
+                                <p class="sidebar-post-date">14 Oct 2015</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-box">
+                        <h5>Categories</h5>
+                        <ul class="sidebar-list">
+                            <li>
+                                <a href="single-post.html">O irure nostrud non</a>
+                            </li>
+                            <li>
+                                <a href="single-post.html">Eu multos eiusmod deserunt</a>
+                            </li>
+                            <li>
+                                <a href="single-post.html">Ab cupidatat philosophari</a>
+                            </li>
+                            <li>
+                                <a href="single-post.html">Commodo dolore te nostrud</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-box">
+                        <!-- FLICKR -->
+                        <h5>Flickr Feed</h5>
+                        <ul class="flickr-box"></ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="sidebar-box">
+                        <h5>Tags</h5>
+                        <!-- TAGS -->
+                        <div class="tags-container sidebar-tags">
+                            <a class="tags" href="#">Voluptate</a>
+                            <a class="tags" href="#">Deserani</a>
+                            <a class="tags" href="#">Quo eram</a>
+                            <a class="tags" href="#">Mentitum amet sit</a>
+                            <a class="tags" href="#">Cillum</a>
+                            <a class="tags" href="#">Incurreret</a>
+                            <a class="tags" href="#">Mauris</a>
+                            <a class="tags" href="#">Admodum</a>
+                            <a class="tags" href="#">Singulis</a>
+                            <a class="tags" href="#">Quit</a>
+                            <a class="tags" href="#">Eram amet aliqua</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="footer-info">
+            <!-- COPYRIGHT -->
+            <div class="credits">Copyright Egemenerd</div>
+            <!-- SOCIAL ICONS -->
+            <ul class="social-icons">
+                <li>
+                    <a href="#">
+                        <img class="social-icon" src="images/social-icons/facebook.png" alt="Facebook" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="social-icon" src="images/social-icons/twitter.png" alt="Twitter" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="social-icon" src="images/social-icons/linkedin.png" alt="LinkedIn" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="social-icon" src="images/social-icons/google.png" alt="Google+" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="social-icon" src="images/social-icons/instagram.png" alt="Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="social-icon" src="images/social-icons/skype.png" alt="Skype" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- JS FILES -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/backstretch.min.js"></script>
+    <script type="text/javascript" src="js/colorbox.js"></script>
+    <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+    <!-- PAGE TITLE BG IMAGE -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            if (jQuery(window).width() > 480) {
+                jQuery('.page-title-container').backstretch("images/photos/about.jpg");
+            }
+        });
+    </script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>

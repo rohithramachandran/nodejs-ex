@@ -1,0 +1,270 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+    <link rel="stylesheet" href="interior/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,900,900italic" rel="stylesheet" property="stylesheet" type="text/css">
+    <style>
+        body{
+            font-family: "Lato", sans-sarif;
+            text-rendering: optimizeLegibility;
+        }
+        .no-padding-lr{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .main-menu-container{
+            position: fixed;
+            width: 20%;
+            height: 100%;
+            background: rgba(29, 13, 13, 0.69)  ;
+            z-index: 10000;
+        }
+        .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    position: absolute;
+    bottom: 20px;
+    height: 50px;
+    right: 0px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+        top: auto !important;
+            left: auto;
+}
+.carousel-control.right .glyphicon,.carousel-control.left .glyphicon{
+        margin-top: -15px;
+    margin-right: -15px;
+        margin-left: -15px;
+}
+.carousel-control.left{
+    right:70px;
+
+}
+.menu-item{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Lato", sans-sarif;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+    display: block;
+    padding: 13px 29px 13px 0;
+    line-height: 1;
+    transition-property: background-color, color;
+    transition-duration: 0.3s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-property: background-color, color;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-property: background-color, color;
+    -o-transition-duration: 0.3s;
+    -ms-transition-property: background-color, color;
+    -ms-transition-duration: 0.3s;
+    -ms-transition-timing-function: ease-out-quart;
+    -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        text-align: right;
+        cursor: pointer;
+        text-transform: uppercase;
+            margin-bottom: 3px;
+
+}
+    .menu-item.active{
+            background-color: #f11a2c;
+    }
+.carousel-caption{
+    left: auto;
+    right: 10%;
+    top: 40%;
+    background: rgba(241, 26, 44, 0.6);
+    bottom: auto;
+    color: white;
+    text-shadow: none;
+    /* padding: 10px; */
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    border-radius: 3px;
+    padding: 2%;
+}
+.carousel-caption h3{
+margin: 0px;
+    font-size: 20px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.image-blur{
+    -webkit-filter: blur(100px);
+}
+.menu-footer{
+        color: white;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 12px;
+    line-height: 23px;
+}
+.menu-social{
+        color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+.menu-social i{
+    padding-right: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid main-container">
+       
+        <div class="col-md-12 no-padding-lr">
+
+            <div class="main-menu-container ">
+                <div class="image-blur"></div>
+                <div>
+                    <img src="interior/images/logo.png" style="width: 100%;"/>
+                    <div class="menu-part">
+                        <div class="menu-item active">Home</div>
+                        <div class="menu-item">About Us</div>
+                        <div class="menu-item">Services</div>
+                        <div class="menu-item">Gallery</div>
+                        <div class="menu-item">Contact</div>
+                    </div>
+                    <div class="menu-footer">
+                        <div> Tel	: +971 4 2976999 </div>
+                        <div> Fax	: +971 4 2976997</div>
+                        <div> Email	: hg@homegallery.ae</div>
+                    </div>
+                    <div class="menu-social">
+                        <i class="fa fa-facebook-official"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+
+             <div id="carousel-example-generic" class="carousel slide">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li> 
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <!-- First slide -->
+                <div class="item active image1">
+                    <div class="carousel-caption " data-animation="animated bounceInRight">
+                        <h3 >
+                            Home Design
+                        </h3>
+                    </div>
+                </div>
+                <!-- /.item -->
+
+                
+                <div class="item image2">
+                    <div class="carousel-caption " data-animation="animated bounceInDown">
+                        <h3 >
+                            Interior Designs
+                        </h3>
+                    </div>
+                </div>
+                
+                <div class="item image3">
+                     <div class="carousel-caption " data-animation="animated bounceInUp">
+                        <h3 >
+                            Concepts
+                        </h3>
+                    </div>
+                </div>
+                
+                <div class="item image4">
+                    <div class="carousel-caption " data-animation="animated bounceInLeft">
+                        <h3 >
+                            Furnitures
+                        </h3>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		        <span class="sr-only">Previous</span>
+	        </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+
+        </div>
+        </div>
+
+       
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/c3378b38ae.js"></script>        
+    <script>
+        (function ($) {
+
+            //Function to animate slider captions 
+            function doAnimations(elems) {
+                //Cache the animationend event in a variable
+                var animEndEv = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+                elems.each(function () {
+                    var $this = $(this),
+                        $animationType = $this.data('animation');
+                    $this.addClass($animationType).one(animEndEv, function () {
+                        $this.removeClass($animationType);
+                    });
+                });
+            }
+
+            //Variables on page load 
+            var $myCarousel = $('#carousel-example-generic'),
+                $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
+
+            //Initialize carousel 
+            $myCarousel.carousel({
+                interval: 4000
+            });
+
+            //Animate captions in first slide on page load 
+            doAnimations($firstAnimatingElems);
+
+            //Pause carousel  
+            //$myCarousel.carousel('pause');
+
+
+            //Other slides to be animated on carousel slide event 
+            $myCarousel.on('slide.bs.carousel', function (e) {
+                var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
+                setTimeout(function(){
+                    doAnimations($animatingElems);
+                },100);
+                
+            });
+
+        })(jQuery);
+    </script>
+</body>
+
+</html>
