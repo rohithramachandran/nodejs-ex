@@ -1,5 +1,9 @@
 
 
+        Openshift 3 app hosted here http://rohith-app-rohith-app.a3c1.starter-us-west-1.openshiftapps.com/
+
+
+
 <!-- toc -->
 
 - [Node.js sample app on OpenShift!](#nodejs-sample-app-on-openshift)
